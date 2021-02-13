@@ -689,6 +689,10 @@ li {
   display: table;
 }
 
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
 * {
   --tw-shadow: 0 0 #0000;
 }

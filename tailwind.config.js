@@ -14,7 +14,7 @@ module.exports = {
        },
        colors: {
         mainColor: '#1E293B'
-       } 
+       }, 
     },
   },
   variants: {
