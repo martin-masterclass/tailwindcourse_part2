@@ -1,6 +1,7 @@
-const colors = require('tailwindcss/colors')
-
 module.exports = {
+  presets: [
+    require('./company_styles')
+  ],
   purge: {
     enabled: false,
     content: ['./dist/**/*.html'],
@@ -10,25 +11,8 @@ module.exports = {
     debugScreens: {
       position: ['top', 'left'],
     },
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      white: colors.white,
-      black: colors.black,
-      blue: colors.blue,
-      yellow: colors.yellow,
-      gray: colors.blueGray,
-      turquoise: colors.cyan,
-      green: colors.lime,
-      red: colors.rose,
-    }, 
     extend: {
-      fontFamily: {
-        headline: ['Oswald']
-       },
-       colors: {
-        mainColor: '#1E293B'
-       }, 
+
     },
   },
   variants: {
