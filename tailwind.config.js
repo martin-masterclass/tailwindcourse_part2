@@ -1,9 +1,9 @@
 module.exports = {
   presets: [
-    require('./company_styles')
+    require('./news_styles')
   ],  
   corePlugins: {
-   float: false,
+   container: false,
   },
   purge: {
     enabled: false,
