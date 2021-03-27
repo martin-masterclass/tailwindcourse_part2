@@ -1,1 +1,1 @@
-# tailwindcourse_part2
+# Tailwind CSS Course Part 2
