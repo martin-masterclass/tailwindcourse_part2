@@ -13,6 +13,10 @@
 
   }
 
+  .typo {
+    @apply prose-2xl prose-red tablet:prose-lg desktop:prose desktop:max-w-min desktop:prose-red;
+  }
+
   .container {
     @apply mx-auto;
   }

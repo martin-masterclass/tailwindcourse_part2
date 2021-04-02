@@ -3,7 +3,7 @@ module.exports = {
     require('./news_styles')
   ],  
   corePlugins: {
-   container: false,
+    container: false,
   },
   purge: {
     enabled: false,
@@ -37,5 +37,6 @@ module.exports = {
   },
   plugins: [
     require('tailwindcss-debug-screens'),
+    require('@tailwindcss/typography'),
   ]
 }
